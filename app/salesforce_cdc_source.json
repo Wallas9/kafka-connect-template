@@ -1,0 +1,25 @@
+{
+    "config": {
+      "connection.max.message.size": "1048576",
+      "connector.class": "SalesforceCdcSource",
+      "kafka.api.key": "your_api_key",
+      "kafka.api.secret": "your_api_secret",
+      "kafka.auth.mode": "KAFKA_API_KEY",
+      "kafka.topic": "topic_sales_cdc",
+      "name": "SalesforceCdcSourceConnectorDeploy",
+      "output.data.format": "AVRO",
+      "request.max.retries.time.ms": "30000",
+      "salesforce.cdc.name": "OpportunityChangeEvent",
+      "salesforce.channel.type": "SINGLE",
+      "salesforce.consumer.key": "your_salesforce_consumer_key",
+      "salesforce.consumer.secret": "your_salesforce_consumer_secret",
+      "salesforce.grant.type": "PASSWORD",
+      "salesforce.initial.start": "latest",
+      "salesforce.instance": "your_salesforce_address",
+      "salesforce.password": "your_salesforce_password",
+      "salesforce.password.token": "your_salesforce_password_token",
+      "salesforce.username": "your_salesforce_username",
+      "schema.context.name": "default",
+      "tasks.max": "1"
+    }
+  }
