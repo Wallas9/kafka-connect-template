@@ -1,4 +1,13 @@
 FROM  confluentinc/confluent-cli:latest
+
+USER root
+
 WORKDIR /app
+
 COPY /app /app
-CMD [ "/app/script.sh" ]
+
+RUN dos2unix /app/script.sh
+
+RUN chmod +x /app/script.sh
+
+CMD ["/app/script.sh"]
