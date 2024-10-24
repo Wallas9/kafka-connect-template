@@ -13,7 +13,7 @@
     "salesforce.channel.type": "SINGLE",
     "salesforce.consumer.key": "your_salesforce_consumer_key",
     "salesforce.consumer.secret": "your_salesforce_consumer_secret",
-    "salesforce.grant.t ype": "PASSWORD",
+    "salesforce.grant.type": "PASSWORD",
     "salesforce.initial.start": "latest",
     "salesforce.instance": "your_salesforce_address",
     "salesforce.password": "your_salesforce_password",
